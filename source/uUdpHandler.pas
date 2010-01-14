@@ -16,7 +16,7 @@ type
     procedure addFile(localFile: TTcpLocalFile);
     function GetFileCount: Integer;
   end;
-	// default handler
+  // not default handler
   TDefaultTcpHandler = Class(TInterfacedObject, ITcpHandler)
   private
     fLocalFileList: TTcpLocalFileList;
